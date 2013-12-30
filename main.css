@@ -5,10 +5,10 @@ body {
 }
 .navbar {
     font-family: 'Tangerine', cursive;
-    font-size: large;
+    font-size: xx-large;
 }
 .navbar-brand {
-    font-size: x-large;
+    font-size: larger;
 }
 h1, h2, h3 {
     font-family: 'Tangerine', cursive;
