@@ -1,7 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Tangerine:400,700);
 
-body { padding-top: 70px; }
+body {
+    padding-top: 70px;
+}
 .navbar {
     font-family: 'Tangerine', cursive;
+    font-size: large;
 }
-h1, h2, h3 { font-family: 'Tangerine Bold', cursive; }
+.navbar-brand {
+    font-size: x-large;
+}
+h1, h2, h3 {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+}
