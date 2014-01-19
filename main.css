@@ -1,18 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Tangerine:400,700);
 
 body {
     padding-top: 70px;
+    font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
 .navbar {
-    font-family: 'Tangerine', cursive;
+    font-family: "Tangerine", "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
     font-size: xx-large;
 }
 .navbar-brand {
     font-size: larger;
 }
-h1, h2, h3 {
-    font-family: 'Tangerine', cursive;
+h1 {
+    font-family: "Tangerine", "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
     font-weight: bold;
+}
+h2, h3 {
+    font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
 #wedding-party {
     margin-left: 33%;
