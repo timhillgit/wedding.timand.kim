@@ -18,6 +18,16 @@ h1 {
 h2, h3 {
     font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
-#wedding-party {
-    margin-left: 33%;
+@media(min-width:768px) {
+    #wedding-party dt {
+        width: 50%;
+        padding-right: 2em;
+    }
+    #wedding-party dd {
+        margin-left: 50%;
+        padding-left: 2em;
+    }
+}
+dd {
+    margin-bottom: 1em;
 }
