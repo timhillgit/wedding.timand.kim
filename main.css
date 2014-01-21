@@ -38,3 +38,27 @@ dd {
 .jumbotron h1 {
     margin-bottom: 1em;
 }
+#map {
+    border: none;
+    margin-bottom: 1em;
+}
+@media (max-width: 767px) {
+    #map {
+        height: 350px;
+    }
+}
+@media (min-width: 768px) {
+    #map {
+        height: 450px;
+    }
+}
+@media (min-width: 992px) {
+    #map {
+        height: 468px;
+    }
+}
+@media (min-width: 1200px) {
+    #map {
+        height: 570px;
+    }
+}
