@@ -31,3 +31,10 @@ h2, h3 {
 dd {
     margin-bottom: 1em;
 }
+.jumbotron {
+    color: royalblue;
+    background: silver;
+}
+.jumbotron h1 {
+    margin-bottom: 1em;
+}
