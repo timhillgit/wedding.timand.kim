@@ -18,12 +18,12 @@ h1 {
 h2, h3 {
     font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
-@media(min-width:768px) {
-    #wedding-party dt {
+@media (min-width: 768px) {
+    .dl-horizontal dt {
         width: 50%;
         padding-right: 2em;
     }
-    #wedding-party dd {
+    .dl-horizontal dd {
         margin-left: 50%;
         padding-left: 2em;
     }
