@@ -15,7 +15,7 @@ h1 {
     font-family: "Tangerine", "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
     font-weight: bold;
 }
-h2, h3 {
+h2, h3, .h2, .h3 {
     font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
 @media (min-width: 768px) {
