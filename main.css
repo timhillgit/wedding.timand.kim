@@ -34,9 +34,11 @@ dd {
 .jumbotron {
     color: royalblue;
     background: silver;
+    margin-bottom: 0px;
 }
 .jumbotron h1 {
-    margin-bottom: 1em;
+    margin-top: 0px;
+    margin-bottom: 0.67em;
 }
 #map {
     border: none;
