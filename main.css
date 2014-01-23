@@ -21,15 +21,17 @@ h2, h3, .h2, .h3 {
 @media (min-width: 768px) {
     .dl-horizontal dt {
         width: 50%;
+        margin-top: 0px;
         padding-right: 2em;
     }
     .dl-horizontal dd {
+        margin-bottom: 1em;
         margin-left: 50%;
         padding-left: 2em;
     }
 }
-dd {
-    margin-bottom: 1em;
+dd + dt {
+    margin-top: 1em;
 }
 .jumbotron {
     color: royalblue;
