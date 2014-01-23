@@ -5,8 +5,13 @@ body {
     font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
 .navbar {
-    font-family: "Tangerine", "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
+    font-family: "Tangerine", serif;
     font-size: xx-large;
+}
+@media (max-width: 991px) {
+    .navbar {
+        font-size: x-large;
+    }
 }
 .navbar-brand {
     font-size: larger;
