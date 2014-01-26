@@ -4,6 +4,9 @@ body {
     padding: 70px 0px 20px;
     font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
 }
+.img-responsive {
+    -ms-interpolation-mode: bicubic;
+}
 .navbar {
     font-family: "Tangerine", serif;
     font-size: xx-large;
@@ -17,8 +20,8 @@ body {
     font-size: larger;
 }
 h1 {
-    font-family: "Tangerine", "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
-    font-weight: bold;
+    font: bold 72px "Tangerine", "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
+    margin: 0px;
 }
 h2, h3, .h2, .h3 {
     font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", serif;
@@ -37,14 +40,6 @@ h2, h3, .h2, .h3 {
 }
 dd + dt {
     margin-top: 1em;
-}
-.jumbotron {
-    color: royalblue;
-    background: silver;
-    margin: 0px;
-}
-.jumbotron h1 {
-    margin: 0px 0px 0.67em;
 }
 #map {
     border: none;
