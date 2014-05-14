@@ -41,6 +41,9 @@ h2, h3, .h2, .h3 {
 dd + dt {
     margin-top: 1em;
 }
+abbr[title] {
+    cursor: auto;
+}
 #map {
     border: none;
 }
